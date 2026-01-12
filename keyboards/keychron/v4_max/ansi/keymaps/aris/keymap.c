@@ -97,7 +97,12 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LSFT_T(KC_D):
         case LSFT_T(KC_K):
-            return TAPPING_TERM - 30;
+            return TAPPING_TERM - 35;
+        case LCTL_T(KC_F):
+        case LCTL_T(KC_J):
+        case LALT_T(KC_S):
+        case LALT_T(KC_L):
+            return TAPPING_TERM - 25;
         default:
             return TAPPING_TERM;
     }
