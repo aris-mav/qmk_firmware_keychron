@@ -93,7 +93,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 };
 
-
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LSFT_T(KC_D):
+        case LSFT_T(KC_K):
+            return TAPPING_TERM - 30;
+        default:
+            return TAPPING_TERM;
+    }
+}
 
 const char chordal_hold_layout[MATRIX_ROWS][MATRIX_COLS] PROGMEM =
 LAYOUT_ansi_61(
