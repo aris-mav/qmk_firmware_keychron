@@ -46,6 +46,7 @@
 // Time until maximum scroll speed is reached
 #define MOUSEKEY_WHEEL_TIME_TO_MAX	40
 
+#define SPECULATIVE_HOLD
 #define TAPPING_TERM 150
 #define TAPPING_TERM_PER_KEY
 #define CHORDAL_HOLD
