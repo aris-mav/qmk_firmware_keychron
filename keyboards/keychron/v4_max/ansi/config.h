@@ -23,10 +23,10 @@
 #define MOUSEKEY_INTERVAL 20
 
 // Step size
-#define MOUSEKEY_MOVE_DELTA	8
+#define MOUSEKEY_MOVE_DELTA	7
 
 // Maximum cursor speed at which acceleration stops
-#define MOUSEKEY_MAX_SPEED	8
+#define MOUSEKEY_MAX_SPEED	6
 
 // Time until max speed is reached
 #define MOUSEKEY_TIME_TO_MAX 30
